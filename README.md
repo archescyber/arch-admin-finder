@@ -62,7 +62,12 @@ The website to scan.
 
 ## Example Usage
 
-`python3 script.py +site http://example.com
-python3 script.py +proxy http://1.2.3.4:8080 +site http://example.com
-python3 script.py +site https://example.com +t 1
-python3 script.py +site https://example.com +w /custom/wordlist/list.txt`
+`python3 script.py +site 
+http://example.com`
+
+`python3 script.py +proxy http://1.2.3.4:8080 +site http://example.com`
+
+`python3 script.py +site https://example.com +t 1`
+
+`python3 script.py +site 
+https://example.com +w /custom/wordlist/list.txt`
