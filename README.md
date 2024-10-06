@@ -71,3 +71,8 @@ http://example.com`
 
 `python3 script.py +site 
 https://example.com +w /custom/wordlist/list.txt`
+
+## Contribution
+Feel free to contribute to the project by submitting issues or pull requests. All contributions are welcome!
+
+For communication, you can send feedback to my Instagram account named **@yusuf.cyw**
