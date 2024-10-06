@@ -1,4 +1,16 @@
 admin1/
+0admin/
+0manager/
+aadmin/
+admin4_account/
+admin4_colon/
+bigadmin/
+checkadmin.%EXT%
+controlpanel/
+controlpanel.%EXT%
+formslogin/
+manage/
+management/
 admin.php
 admin/login.%EXT%
 admin/console%EXT%
