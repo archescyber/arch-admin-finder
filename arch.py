@@ -2,7 +2,8 @@
 from threading import Lock, Thread
 from requests import get
 from requests.exceptions import ConnectionError as hata
-from requests.exceptions import MissingSchema as eksik_schema     from queue import Queue
+from requests.exceptions import MissingSchema as eksik_schema     
+from queue import Queue
 from time import sleep
 from sys import argv
 import os
