@@ -1,6 +1,8 @@
 # Arch Admin Finder
 
-Arch Admin Finder is a Python-based tool designed to discover admin panels on specific websites. This tool scans a given web address, checking various paths to identify URLs that return a 200 status code.
+- Arch Admin Finder is a Python-based tool designed to discover admin panels on specific websites. 
+
+- This tool scans a given web address, checking various paths to identify URLs that return a 200 status code.
 
 ## Features
 
