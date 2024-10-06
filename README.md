@@ -25,3 +25,44 @@ git clone https://github.com/archescyber/arch-admin-finder.git
 ```
 cd arch-admin-finder
 ```
+2. Install the required libraries:
+```
+pip install requests
+```
+
+
+## Usage
+
+Run the tool using the following command structure:
+
+`python3 arch.py [OPTIONS]`
+
+Options
+
+`+site <website URL>`
+
+The website to scan.
+
+
+`+proxy <protocol>://<proxyserverip:port>`
+
+`Use a proxy server.`
+
+
+`+t <seconds>`
+
+`Delay for scanning.`
+
+
+`+w <custom/wordlist/path>`
+
+`Custom wordlist file for scanning.`
+
+
+
+## Example Usage
+
+`python3 script.py +site http://example.com
+python3 script.py +proxy http://1.2.3.4:8080 +site http://example.com
+python3 script.py +site https://example.com +t 1
+python3 script.py +site https://example.com +w /custom/wordlist/list.txt`
